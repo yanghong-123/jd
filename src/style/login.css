@@ -1,0 +1,281 @@
+@charset "utf-8";
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+* {
+  box-sizing: border-box;
+}
+.header-box,
+.verify-box,
+.main-box,
+.bottom-box {
+  width: 990px;
+  margin: 0 auto;
+}
+.header-box .logo {
+  display: block;
+  width: 170px;
+  height: 60px;
+  margin: 10px 0;
+}
+.header-box .logo > img {
+  width: 100%;
+  height: 100%;
+}
+.header-box .logo_title {
+  width: 110px;
+  height: 40px;
+  font-size: 24px;
+  color: #333;
+  font-style: tahoma;
+  margin: 35px 0 0 20px;
+}
+.header-box .survey {
+  color: #999;
+  font-size: 12px;
+  margin-top: 50px;
+}
+.header-box .survey > i {
+  font-size: 16px;
+  color: #E22;
+  margin-right: 5px;
+}
+.header-box .survey:hover > span {
+  color: #E22;
+  text-decoration: underline;
+}
+.verify-box {
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+  padding: 10px 0;
+}
+.verify-box > i {
+  font-size: 18px;
+  margin-right: 5px;
+}
+.verify-box > a {
+  color: #000;
+}
+.verify-box > a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+#main {
+  background-color: #5465a1;
+}
+#main .main-box {
+  height: 475px;
+  background: url(../img/login_banner.jpg);
+  position: relative;
+}
+#main .main-box .login_box {
+  width: 344px;
+  font-size: 12px;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  background: #fff;
+}
+#main .main-box .login_box .notice {
+  color: #999;
+  margin: 10px 0;
+  text-align: center;
+}
+#main .main-box .login_box .notice > i {
+  font-size: 16px;
+}
+#main .main-box .login_box .main_contains {
+  width: 344px;
+  margin: 0 18px 20px 0;
+}
+#main .main-box .login_box .main_contains .title {
+  color: #666;
+  font-size: 18px;
+}
+#main .main-box .login_box .main_contains .title > h2 {
+  width: 172px;
+  height: 55px;
+  text-align: center;
+  line-height: 55px;
+  float: left;
+}
+#main .main-box .login_box .main_contains .title > h2:hover {
+  cursor: pointer;
+}
+#main .main-box .login_box .main_contains .title .scan:hover {
+  color: #E93854;
+  font-weight: bolder;
+}
+#main .main-box .login_box .main_contains .title .account {
+  color: #E93854;
+  font-weight: bolder;
+}
+#main .main-box .login_box .main_contains .title .account:hover {
+  color: #E93854;
+  font-weight: bolder;
+}
+#main .main-box .login_box .main_contains .scan_contains {
+  display: none;
+}
+#main .main-box .login_box .main_contains .scan_contains .img_code {
+  width: 306px;
+  height: 188px;
+  position: relative;
+}
+#main .main-box .login_box .main_contains .scan_contains .img_code > div {
+  width: 170px;
+  height: 163px;
+  position: absolute;
+  top: 20px;
+  left: 87px;
+}
+#main .main-box .login_box .main_contains .scan_contains .img_code > div > img {
+  width: 100%;
+  height: 100%;
+}
+#main .main-box .login_box .main_contains .scan_contains > p:first-of-type {
+  text-align: center;
+  margin: 15px 0;
+}
+#main .main-box .login_box .main_contains .scan_contains > p:first-of-type > a {
+  color: #E93854;
+}
+#main .main-box .login_box .main_contains .scan_contains > p:last-of-type {
+  text-align: center;
+  color: #999;
+}
+#main .main-box .login_box .main_contains .scan_contains > p:last-of-type > span {
+  margin: 0 40px;
+}
+#main .main-box .login_box .main_contains .account_contains {
+  height: 245px;
+  padding: 0 20px;
+}
+#main .main-box .login_box .main_contains .account_contains .notice_wrap {
+  width: 306px;
+  height: 23px;
+  margin: 5px 0;
+}
+#main .main-box .login_box .main_contains .account_contains span {
+  display: block;
+  float: left;
+  width: 38px;
+  height: 38px;
+  border: 1px solid #ccc;
+  border-right: 0!important;
+}
+#main .main-box .login_box .main_contains .account_contains .user,
+#main .main-box .login_box .main_contains .account_contains .pass {
+  display: block;
+  float: left;
+  width: 266px;
+  height: 38px;
+  padding: 10px 0 10px 10px;
+  border: 1px solid #ccc;
+}
+#main .main-box .login_box .main_contains .account_contains > div:nth-of-type(2) > span {
+  background: url(../img/user.PNG) no-repeat center;
+  background-size: 30px 30px;
+}
+#main .main-box .login_box .main_contains .account_contains > div:nth-of-type(3) > span {
+  background: url(../img/pass.PNG) no-repeat center;
+  background-size: 30px 30px;
+}
+#main .main-box .login_box .main_contains .account_contains > div:last-of-type {
+  margin: 30px 0;
+}
+#main .main-box .login_box .main_contains .account_contains > a {
+  color: #666;
+  margin-left: 254px;
+}
+#main .main-box .login_box .main_contains .account_contains > a:hover {
+  color: #e4393c;
+  text-decoration: underline;
+}
+#main .main-box .login_box .main_contains .account_contains .btn {
+  width: 304px;
+  height: 33px;
+  background: #e4393c;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 33px;
+  border: 0;
+  margin-top: 30px;
+}
+#main .main-box .login_box .main_contains .account_contains .btn:hover {
+  cursor: pointer;
+}
+#main .main-box .login_box .way {
+  height: 50px;
+  line-height: 50px;
+  margin: 0 20px;
+  color: #999;
+}
+#main .main-box .login_box .way > a {
+  color: #999;
+}
+#main .main-box .login_box .way > a > svg {
+  font-size: 16px;
+}
+#main .main-box .login_box .way > a:hover > span {
+  color: #E22;
+  text-decoration: underline;
+}
+#main .main-box .login_box .way > a:first-of-type > svg {
+  font-size: 19px;
+}
+#main .main-box .login_box .way > b {
+  margin: 0 10px;
+}
+#main .main-box .login_box .way .btn_login {
+  margin-left: 80px;
+}
+#main .main-box .login_box .way .btn_login > b {
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  background: #E22;
+  color: #fff;
+  margin-right: 5px;
+}
+#main .main-box .login_box .way .btn_login > b > i {
+  margin-left: 2px;
+}
+#main .main-box .login_box .way .btn_login > em {
+  font-size: 14px;
+  color: #E22;
+}
+#main .main-box .login_box .way .btn_login > em:hover {
+  text-decoration: underline;
+}
+.bottom-box {
+  height: 86px;
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+}
+.bottom-box .bottom_links {
+  height: 18px;
+  margin: 25px 0 10px 100px;
+}
+.bottom-box .bottom_links > li {
+  float: left;
+}
+.bottom-box .bottom_links > li > a {
+  display: inline-block;
+  margin: 0 10px;
+}
+.bottom-box .bottom_links > li > a:hover {
+  text-decoration: underline;
+  color: #E22;
+  cursor: pointer;
+}
+.bottom-box .copyright {
+  text-align: center;
+}

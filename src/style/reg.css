@@ -1,0 +1,287 @@
+@charset "utf-8";
+* {
+  box-sizing: border-box;
+}
+.header-box,
+.main-box,
+.bottom-box {
+  width: 1210px;
+  margin: 0 auto;
+}
+#header {
+  border-bottom: 5px solid #eee;
+}
+#header .header-box {
+  height: 110px;
+}
+#header .header-box .logo {
+  display: block;
+  width: 160px;
+  height: 50px;
+  margin-top: 24px;
+}
+#header .header-box .logo > img {
+  width: 100%;
+  height: 100%;
+}
+#header .header-box .logo_title {
+  width: 96px;
+  height: 34px;
+  font-size: 24px;
+  color: #333;
+  font-style: tahoma;
+  margin: 40px 0 0 20px;
+}
+#header .header-box .have_account {
+  width: 145px;
+  height: 21px;
+  color: #999;
+  margin-top: 60px;
+}
+#header .header-box .have_account > a {
+  color: #E22;
+}
+#header .header-box .have_account > a:hover {
+  text-decoration: underline;
+}
+.main-box {
+  height: 407px;
+  margin-bottom: 186px;
+}
+.main-box .step {
+  width: 410px;
+  height: 55px;
+  margin: 80px 405px 0;
+  position: relative;
+}
+.main-box .step .step_com {
+  float: left;
+  color: #ccc;
+}
+.main-box .step .step_com > span {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  border: 1px solid #ccc;
+  font-size: 12px;
+  font-weight: bolder;
+  text-align: center;
+  line-height: 24px;
+  margin: 0 18px 10px;
+}
+.main-box .step .step_com > p {
+  font-size: 12px;
+  color: #999;
+}
+.main-box .step .step_first > span {
+  border-color: #3B4;
+  background: #3B4;
+  color: #fff;
+}
+.main-box .step .step_first > P {
+  color: #3B4;
+}
+.main-box .step .step_second {
+  margin-left: 111px;
+}
+.main-box .step .step_second > span {
+  margin: 0 24px 10px;
+}
+.main-box .step .step_third {
+  margin-left: 112px;
+}
+.main-box .step .step_third > span {
+  margin: 0 12px 10px;
+}
+.main-box .step .line_first,
+.main-box .step .line_second {
+  color: #ccc;
+  font-weight: bolder;
+  position: absolute;
+}
+.main-box .step .line_first {
+  left: 55px;
+}
+.main-box .step .line_second {
+  left: 228px;
+}
+.main-box .main_contains {
+  width: 400px;
+  height: 302px;
+  margin: 50px 405px 0;
+  color: #666;
+  font-size: 14px;
+}
+.main-box .main_contains .step1 {
+  width: 400px;
+  height: 246px;
+}
+.main-box .main_contains .step1 .input_box {
+  position: relative;
+}
+.main-box .main_contains .step1 .input_box span {
+  display: block;
+  float: left;
+  width: 108px;
+  height: 52px;
+  padding-left: 20px;
+  border: 1px solid #ccc;
+  line-height: 52px;
+}
+.main-box .main_contains .step1 .input_box .txt {
+  display: block;
+  float: left;
+  width: 290px;
+  height: 52px;
+  padding: 16px 0 11px 20px;
+  border: 1px solid #ccc;
+  border-left: 0!important;
+}
+.main-box .main_contains .step1 .input_box .trueOrFalse {
+  font-size: 20px;
+  position: absolute;
+  top: 12px;
+  right: 15px;
+}
+.main-box .main_contains .step1 .input_box:hover span {
+  border-color: #666;
+  cursor: pointer;
+}
+.main-box .main_contains .step1 .input_box:hover .txt {
+  border-color: #666;
+  background: #fff;
+}
+.main-box .main_contains .step1 .warn1_btnCheck {
+  height: 34px;
+}
+.main-box .main_contains .step1 .btn_check {
+  display: block;
+  width: 400px;
+  height: 54px;
+  color: #333;
+  text-align: center;
+  line-height: 54px;
+  border: 1px solid #ccc;
+}
+.main-box .main_contains .step1 .btn_check:hover {
+  border-color: #666;
+}
+.main-box .main_contains .step1 .warn2_btnCheck {
+  height: 32px;
+}
+.main-box .main_contains .step1 .btn_next {
+  display: block;
+  width: 400px;
+  height: 54px;
+  background: #E2231A;
+  color: #fff;
+  text-align: center;
+  line-height: 54px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.main-box .main_contains .step1 .btn_next:hover {
+  background: #C81623;
+}
+.main-box .main_contains .step2 {
+  display: none;
+}
+.main-box .main_contains .step2 > div {
+  margin: 20px 0;
+}
+.main-box .main_contains .step2 > div > em {
+  display: block;
+  float: left;
+  width: 90px;
+  height: 40px;
+  border: 1px solid #999;
+  border-right: 0!important;
+  padding-left: 8px;
+  line-height: 40px;
+}
+.main-box .main_contains .step2 > div:hover em {
+  border-color: #666;
+}
+.main-box .main_contains .step2 > div:hover input {
+  border-color: #666;
+}
+.main-box .main_contains .step2 input {
+  display: block;
+  float: left;
+  width: 310px;
+  height: 40px;
+  border: 1px solid #999;
+  padding-left: 3px;
+}
+.main-box .main_contains .step2 .btn_reg {
+  width: 400px;
+  height: 50px;
+  font-size: 16px;
+  color: #fff;
+  background: #E2231A;
+  margin: 20px auto 0;
+  border: 0!important;
+}
+.main-box .main_contains .step2 .btn_reg:hover {
+  background: #C81623;
+}
+.main-box .main_contains .step2 .warning {
+  height: 20px;
+  line-height: 20px;
+}
+.main-box .main_contains .step3 {
+  display: none;
+}
+.main-box .main_contains .step3 > img {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+.main-box .main_contains .step3 > p {
+  width: 300px;
+  height: 50px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+  color: #333;
+  font-weight: bolder;
+  margin: 30px auto;
+}
+.main-box .main_contains .step3 > a {
+  display: block;
+  width: 200px;
+  color: #E22;
+  font-size: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+.main-box .main_contains .step3 > a:hover {
+  text-decoration: underline;
+}
+.main-box .diff_user {
+  width: 400px;
+  height: 28px;
+  margin: 0 auto;
+  /* 上边距原来28px */
+}
+.main-box .diff_user a {
+  display: block;
+  float: left;
+  width: 116px;
+  height: 28px;
+  color: #333;
+  font-size: 14px;
+  margin-right: 168px;
+}
+.main-box .diff_user a i {
+  display: block;
+  float: left;
+  width: 26px;
+  height: 26px;
+  margin: 0 6px 2px 0;
+  font-size: 22px;
+}
+.main-box .diff_user a:hover > b {
+  color: #C81623;
+}

@@ -1,0 +1,416 @@
+@charset "utf-8";
+* {
+  box-sizing: border-box;
+}
+.top-box,
+.header-box,
+.allgoods-box,
+.otherslike-box,
+.guessyou-box,
+.advantages-box,
+.bottom-box {
+  width: 990px;
+  margin: 0 auto;
+}
+#top .top-box .shouye {
+  float: left;
+  padding-top: 6px;
+}
+#top .top-box .area .iconfont {
+  color: #999;
+}
+#top .top-box .top_nav li:nth-child(6) > a {
+  color: #999;
+}
+.header-box {
+  height: 97px;
+  padding-top: 10px;
+}
+.header-box .logo {
+  width: 134px;
+  height: 42px;
+  margin-top: 15px;
+}
+.header-box .logo > img {
+  width: 100%;
+  height: 100%;
+}
+.header-box .logo_title {
+  color: #666;
+  font-weight: bolder;
+  font-size: 18px;
+  margin: 35px 0 0 20px;
+}
+.header-box .search {
+  margin-top: 29px;
+}
+.header-box .search .search_txt {
+  display: block;
+  float: left;
+  width: 270px;
+  height: 26px;
+  border: 2px solid #c91623;
+  padding: 3px 5px;
+  font-size: 12px;
+  color: #999;
+}
+.header-box .search .search_btn {
+  display: block;
+  float: left;
+  width: 48px;
+  height: 26px;
+  background: #c91623;
+  border: 2px solid #c91623;
+  color: #fff;
+  text-align: center;
+  line-height: 26px;
+}
+.allgoods-box .allgoods_tit {
+  height: 37px;
+  margin-top: 10px;
+}
+.allgoods-box .allgoods_tit > h2 {
+  height: 37px;
+  color: #e2231a;
+  font-weight: bolder;
+  line-height: 37px;
+  border-bottom: 1px solid #e2231a;
+}
+.allgoods-box .allgoods_tit > h2 > em {
+  font-size: 14px;
+}
+.allgoods-box .allgoods_tit > p {
+  font-size: 12px;
+  color: #666;
+}
+.allgoods-box .allgoods_tit > p > em {
+  display: block;
+  float: left;
+  width: 48px;
+  height: 26px;
+  line-height: 26px;
+}
+.allgoods-box .allgoods_tit > p > span {
+  display: block;
+  float: left;
+  width: 150px;
+  height: 25px;
+  line-height: 25px;
+  padding-left: 4px;
+  border: 1px solid #999;
+}
+.allgoods-box .allgoods_tit > p > span > i {
+  float: right;
+  font-size: 18px;
+  color: #999;
+}
+.allgoods-box .allgoods_contains {
+  min-height: 313px;
+  margin-bottom: 20px;
+}
+.allgoods-box .allgoods_contains .allcheck {
+  height: 43px;
+  padding: 5px 0;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: #666;
+  background: #f3f3f3;
+  border: 1px solid #ddd;
+}
+.allgoods-box .allgoods_contains .allcheck > div {
+  float: left;
+  height: 32px;
+  line-height: 32px;
+}
+.allgoods-box .allgoods_contains .allcheck > div:nth-child(1) {
+  width: 133px;
+  height: 25px;
+  padding: 7px 0 0 11px;
+  line-height: 12px;
+  margin-top: 3px;
+}
+.allgoods-box .allgoods_contains .allcheck > div:nth-child(1) > b {
+  margin-left: 5px;
+}
+.allgoods-box .allgoods_contains .allcheck > div:nth-child(2) {
+  width: 208px;
+}
+.allgoods-box .allgoods_contains .allcheck > div:nth-child(3) {
+  width: 170px;
+  padding: 0 10px 0 20px;
+}
+.allgoods-box .allgoods_contains .allcheck > div:nth-child(4) {
+  width: 160px;
+  padding-right: 40px;
+}
+.allgoods-box .allgoods_contains .allcheck > div:nth-child(5) {
+  width: 80px;
+}
+.allgoods-box .allgoods_contains .allcheck > div:nth-child(6) {
+  width: 140px;
+  padding-right: 40px;
+}
+.allgoods-box .allgoods_contains .allcheck > div:nth-child(7) {
+  width: 75px;
+}
+.allgoods-box .allgoods_contains .classify {
+  height: 30px;
+  color: #666;
+  padding-left: 11px;
+  border-bottom: 2px solid #999;
+}
+.allgoods-box .allgoods_contains .classify > input {
+  margin-top: 8px;
+}
+.allgoods-box .allgoods_contains .classify > em {
+  display: block;
+  width: 410px;
+}
+.allgoods-box .allgoods_contains .classify > em > a {
+  display: block;
+  width: 58px;
+  height: 18px;
+  color: #fff;
+  background: #da0012;
+  font-size: 12px;
+  text-align: center;
+  margin: 6px 0 0 3px;
+}
+.allgoods-box .allgoods_contains .classify > a {
+  display: block;
+  width: 70px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  border: 1px solid #c91623;
+  padding-left: 8px;
+  color: #da0012;
+  margin-top: 3px;
+}
+.allgoods-box .allgoods_contains .classify > a > em {
+  display: block;
+  width: 40px;
+  float: left;
+}
+.allgoods-box .allgoods_contains .classify > a > i {
+  float: left;
+  font-size: 12px;
+  margin-left: 2px;
+}
+.allgoods-box .allgoods_contains .goods {
+  border: 1px solid #eee;
+}
+.allgoods-box .allgoods_contains .goods > div:first-child {
+  height: 36px;
+  padding: 5px 10px;
+}
+.allgoods-box .allgoods_contains .goods > div:first-child > span {
+  display: block;
+  float: left;
+  width: 46px;
+  height: 20px;
+  font-size: 12px;
+  color: #fff;
+  background: #f48719;
+  margin: 0 10px 0 5px;
+  padding: 1px 10px;
+  position: relative;
+}
+.allgoods-box .allgoods_contains .goods > div:first-child > span > b {
+  display: block;
+  width: 5px;
+  height: 6px;
+  background: url(../img/bg_sanjiao.png) no-repeat 0 0;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+.allgoods-box .allgoods_contains .goods > div:first-child > em {
+  float: left;
+  font-size: 12px;
+  color: #999;
+  margin: 0 10px 0 8px;
+}
+.allgoods-box .allgoods_contains .goods > div:first-child > a {
+  float: left;
+  color: red;
+  font-size: 12px;
+}
+.allgoods-box .allgoods_contains .goods .yours {
+  height: 118px;
+  font-size: 12px;
+  color: #666;
+  margin-left: 40px;
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+  position: relative;
+}
+.allgoods-box .allgoods_contains .goods .yours .dashed_line {
+  display: block;
+  width: 7px;
+  height: 29px;
+  border-left: 1px dashed #ccc;
+  position: absolute;
+  top: -8px;
+  left: -25px;
+}
+.allgoods-box .allgoods_contains .goods .yours > input {
+  position: absolute;
+  top: 20px;
+  left: -26px;
+}
+.allgoods-box .allgoods_contains .goods .yours > div {
+  float: left;
+}
+.allgoods-box .allgoods_contains .goods .yours > div:first-of-type {
+  width: 300px;
+  height: 82px;
+  margin-right: 20px;
+}
+.allgoods-box .allgoods_contains .goods .yours > div:first-of-type .img {
+  float: left;
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+  position: relative;
+}
+.allgoods-box .allgoods_contains .goods .yours > div:first-of-type .img > img {
+  width: 100%;
+  height: 100%;
+}
+.allgoods-box .allgoods_contains .goods .yours > div:first-of-type .img > a {
+  display: none;
+  width: 70px;
+  height: 20px;
+  background: #333;
+  color: #fff;
+  text-align: center;
+  line-height: 20px;
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  padding-left: 10px;
+}
+.allgoods-box .allgoods_contains .goods .yours > div:first-of-type .img > a > i {
+  font-size: 12px;
+  padding-top: 2px;
+  margin-left: 5px;
+}
+.allgoods-box .allgoods_contains .goods .yours > div:first-of-type .img > a:hover {
+  background: red;
+  color: #fff;
+}
+.allgoods-box .allgoods_contains .goods .yours > div:first-of-type .txt {
+  float: left;
+}
+.allgoods-box .allgoods_contains .goods .yours > div:first-of-type .txt > a {
+  display: block;
+  width: 210px;
+  height: 46px;
+  color: #333;
+}
+.allgoods-box .allgoods_contains .goods .yours > div:first-of-type .txt > span {
+  display: none;
+}
+.allgoods-box .allgoods_contains .goods .yours > div:first-of-type .txt > span > i {
+  display: block;
+  float: left;
+  width: 17px;
+  height: 16px;
+  background: #c91623;
+  color: #fff;
+  text-align: center;
+  margin-right: 5px;
+}
+.allgoods-box .allgoods_contains .goods .yours > div:first-of-type .txt > span > a {
+  float: left;
+  color: #999;
+}
+.allgoods-box .allgoods_contains .goods .yours > div:first-of-type .txt > span > a:hover {
+  color: red;
+}
+.allgoods-box .allgoods_contains .goods .yours .version {
+  width: 130px;
+  height: 20px;
+}
+.allgoods-box .allgoods_contains .goods .yours .price {
+  width: 190px;
+  height: 70px;
+  padding: 15px 40px 10px 0;
+  text-align: right;
+}
+.allgoods-box .allgoods_contains .goods .yours .price > span > i {
+  font-size: 14px;
+}
+.allgoods-box .allgoods_contains .goods .yours .price > a {
+  display: block;
+  width: 50px;
+  height: 20px;
+  color: #e2231a;
+  margin-top: 5px;
+  margin-left: 100px;
+  border: 1px solid #e2231a;
+}
+.allgoods-box .allgoods_contains .goods .yours .price > a > em {
+  margin: 0 3px 0 4px;
+}
+.allgoods-box .allgoods_contains .goods .yours .price > a > i {
+  padding-top: 3px;
+  font-size: 12px;
+}
+.allgoods-box .allgoods_contains .goods .yours .count {
+  width: 80px;
+  height: 67px;
+  padding: 15px 0 10px;
+}
+.allgoods-box .allgoods_contains .goods .yours .count .reduce_btn,
+.allgoods-box .allgoods_contains .goods .yours .count .add_btn {
+  float: left;
+  width: 16px;
+  height: 22px;
+  background: #fff;
+  border: 1px solid #aaa;
+}
+.allgoods-box .allgoods_contains .goods .yours .count .count_txt {
+  float: left;
+  width: 46px;
+  height: 22px;
+  border: 1px solid #aaa;
+  border-right: 0;
+  border-left: 0;
+  text-align: center;
+}
+.allgoods-box .allgoods_contains .goods .yours .count > span {
+  display: block;
+  width: 80px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  color: #aaa;
+}
+.allgoods-box .allgoods_contains .goods .yours .money {
+  width: 140px;
+  height: 45px;
+  padding: 15px 40px 10px 0;
+  text-align: right;
+  font-weight: bolder;
+  color: #333;
+}
+.allgoods-box .allgoods_contains .goods .yours .money > i {
+  font-size: 12px;
+}
+.allgoods-box .allgoods_contains .goods .yours .operate {
+  width: 75px;
+  height: 65px;
+  padding: 15px 0 10px;
+}
+.allgoods-box .allgoods_contains .goods .yours .operate > a {
+  display: block;
+  width: 75px;
+  height: 20px;
+  color: #666;
+  line-height: 20px;
+}
+.allgoods-box .allgoods_contains .goods .yours .operate > a:hover {
+  color: red;
+}
